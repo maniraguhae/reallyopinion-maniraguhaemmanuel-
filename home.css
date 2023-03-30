@@ -1,0 +1,129 @@
+.wrap{
+    background-color: rgb(18, 146, 231);
+}
+/* Start Header */
+.header{
+    height: 3em;
+    color: white;
+    font-size: 2em;
+    background-color: rgb(18, 146, 231);
+}
+/* End Header */
+
+/* Start Navigation */
+
+.navigation{
+    height: 3em;
+background-color: rgb(212, 17, 163);
+    color: aqua;
+}
+
+.navigation ul li{
+    float: left;
+    font-weight: bold;
+    list-style: none;
+    margin-top: 15px;
+    padding-right: 2.2em;
+}
+
+.navigation ul li a{
+    color: white;
+    font-size: 1.40em;
+    text-decoration: none;
+}
+#active{
+    color: black;
+    border-radius: 2px;
+    background-color: white;
+    text-decoration: none;
+}
+
+.navigation ul li a:hover{
+    color: black;
+    border-radius: 2px;
+    background-color: white;
+    text-decoration: none;
+}
+/* End Navigatiomn */
+
+/* Start Left Side */
+.left-side{
+    background-color: skyblue;
+    float: left;
+    height: 50em;
+}
+#add1{
+    width: 174px;
+}
+#title1{
+    font-weight: bold;
+    font-size: 2em;
+    color: green;
+}
+/* End Left Side */
+
+/* Start Right Side */
+.right-side{
+    background-color: rgb(135, 235, 177);
+    float: right;
+    height: 50em;
+}
+#ann1{
+    width: 174px;
+}
+#title2{
+    font-weight: bold;
+    font-size: 2em;
+    color: green;
+}
+#explain{
+    font-size: 1.20em;
+    margin-left: 10px;
+}
+/* End Right Side */
+
+/* Start Main */
+.main,#welcome{
+    font-size: 1.40em;
+    font-weight: bold;
+    margin-top: 0em;
+    background-color: rgb(185, 148, 25);
+}
+/* End Main */
+
+/* Start Footer */
+.footer{
+    height: 16em;
+    color: wheat;
+    margin-top: 2.12em;
+    background-color: rgb(94, 84, 84);
+}
+#block1{
+    float: left;
+    margin-left: 2em;
+    padding-right: 15em;
+}
+#block1 p a{
+    color: rgb(26, 27, 29);
+    font-weight: bold;
+}
+#block2{
+    float: left;
+    padding-right: 15em;
+}
+#block2 p a{
+    color: rgb(26, 27, 29);
+    font-weight: bold;
+}
+#block3{
+    float: left;
+    margin-right: 2em;
+}
+#block3 p a{
+    color: rgb(26, 27, 29);
+    font-weight: bold;
+}
+p a{
+    text-decoration: none;
+}
+/* End Footer */

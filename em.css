@@ -1,0 +1,20 @@
+mark{
+    background-color: rgb(0, 184, 168);
+}
+p{
+    background-color: rgb(0, 128, 0,0.5);
+    color: white;
+}
+body{
+    background-image: url("pic.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-attachment: fixed;
+    margin-left: 40px;
+    width: 110%;
+}
+#name{
+position: fixed;
+
+}
